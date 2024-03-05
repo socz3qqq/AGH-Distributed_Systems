@@ -1,0 +1,7 @@
+*.pdf
+*.idea
+*/out
+*__pycache__
+*/venv
+*.class
+
