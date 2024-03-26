@@ -1,7 +1,8 @@
-*.pdf
-*.idea
-*/out
-*__pycache__
-*/venv
-*.class
+**.pdf
+**.idea
+**/out
+**__pycache__
+**venv
+**.class
+**.zip
 

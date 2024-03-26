@@ -1,0 +1,38 @@
+Project idea: Simple OSINT scanner, that retrieves data from pupular
+services, and generates a report about the site security in html
+
+report can be displayed in 3 detail levels:
+ - short
+ - normal
+ - detailed
+
+API to use:
+ - https://whoisfreaks.com/
+ - https://www.zaproxy.org/docs/api/#introduction
+ - https://securitytrails.com/corp/api
+ - https://github.com/mozilla/http-observatory/blob/main/httpobs/docs/api.md
+ - https://github.com/mozilla/tls-observatory#api-endpoints
+ - https://github.com/IntelligenceX/SDK
+ - https://haveibeenpwned.com/API/v3
+
+po podaniu odpowiedniej domeny strona powinna zwracać:
+ - Jakie adresy serwerów DNS obsługują stronę?
+ - Jaka firma odpowiada za rejestrację domeny?
+ - Na jakie adresy wskazują dane z DNS?
+ - Czy da się sprawdzić jakie inne domeny wskazują na dany adres IP? Jeśli tak, to jakie?
+ - Jak nazywają się i jakie adresy e-mail mają osoby kontaktowe dla bloku adresów powiązanych ze sprawdzaną instytucją?
+ - Jakie poddomeny znajdują się w obrębie domeny?
+ - Czy można znaleźć dokumenty w formatach DOC/DOCX publikowane na stronie sprawdzanej instytucji?
+ - Jakie technologie (np. CMS) używane są na stronie?
+ - Jakie były historyczne wersje serwera i adresy IP, z których strona była hostowana?
+ - luki w zabezpieczeniach, problemy z https i tls
+
+
+Przydatne rzeczy z labów Inzynierii Bezpieczeństwa
+NetCraft (https://www.netcraft.com/)
+PrivacyScore (https://privacyscore.org/)
+WHOIS (https://www.dns.pl/whois)
+RIPE NCC (https://www.ripe.net/),
+narzędzia do reverse IP lookup, np. https://www.ipaddress.com/reverse-ip-lookup
+YouGetSignal (https://www.yougetsignal.com/tools/web-sites-on-web-server/)
+Google Toolbox (https://toolbox.googleapps.com/apps/dig/)
